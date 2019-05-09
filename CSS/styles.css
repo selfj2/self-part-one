@@ -1,0 +1,177 @@
+body{
+  background-color: #F0ECEE;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+@media screen and (min-width: 768px){
+  header{
+    display: flex;
+
+  }
+
+  .logo{
+    flex: auto;
+    font-size: 20px;
+    margin-left: 60px;
+    padding-top: 10px;
+  }
+}
+
+/* menu base styles*/
+
+
+nav{
+ flex: auto;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav li{
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  color: #88898B;
+  padding: 10px;
+}
+
+.btn{
+  background-color: #FF4850;
+  font-size: 18px;
+  color: #fff;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px){
+nav{
+  background: #F0ECEE;
+  display: flex;
+  margin-right: 60px;
+}
+
+nav ul{
+  list-style: none;
+  flex: auto;
+}
+
+nav li{
+  text-decoration: none;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  color: #88898B;
+  display: inline;
+  padding: 10px;
+}
+}
+
+@media screen and (min-width: 768px){
+nav li:hover {
+  background-color: #FF4850;
+}
+
+nav .btn:hover {
+  background-color: #CCC;
+}
+
+button:hover{
+  background-color: #CCC;
+}
+}
+
+/* Img container*/
+.img{
+  background-image: none;
+}
+
+.text{
+  padding-top: 100px;
+}
+
+.text h1{
+  font-weight: 600;
+  font-size: 30px;
+}
+
+p{
+  width: auto;
+  color: #88898B;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px){
+ .img{
+   background-image: url("../bulldog.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-width: 100%;
+   height: 600px;
+ }
+
+.text{
+  margin-left: 60px;
+  padding-top: 100px;
+}
+
+.text h1{
+  font-weight: 600;
+  font-size: 30px;
+}
+
+p{
+  width: auto;
+  color: #88898B;
+  font-weight: 600;
+  font-size: 18px;
+}
+}
+
+span{
+  color: #FF4850;
+}
+
+@media screen and (min-width: 768px){
+.btn{
+  width: auto;
+  margin: 100%;
+  color: #fff;
+  background-color: #FF4850;
+  padding: 10px;
+  border-radius: 15px;
+}
+}
+
+@media screen and (min-width: 768px) {
+
+.btn{
+  background-color: #FF4850;
+  font-size: 18px;
+  color: #fff;
+  padding: 15px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.bottom{
+ padding-left: 60px;
+}
+}
+
+/* flex styles*/
+
+@media screen and (min-width: 768px) {
+
+   nav ul{
+     display: flex;
+     justify-content: flex-end;
+  }
+
+  nav li{
+    flex: 1 0 2;
+  }
+}
